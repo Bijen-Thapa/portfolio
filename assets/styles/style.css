@@ -1,0 +1,45 @@
+body {
+  background-color: #111111;
+  color: #ffffff;
+  display: flex;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  aside {
+    a img {
+      width: 1.5rem;
+    }
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    footer {
+      display: flex;
+      flex-direction: column;
+      a {
+        padding: 5px;
+      }
+      padding-bottom: 3rem;
+    }
+    border-right: 6px solid #666666;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 5;
+    overflow: auto;
+  }
+}
+
+main {
+  width: -webkit-fill-available;
+  padding-left: 5rem;
+  margin-left: 5rem;
+}
+nav ul li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-weight: 500;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
