@@ -44,3 +44,10 @@ nav ul li {
 ::-webkit-scrollbar {
   width: 0px;
 }
+
+div a {
+  font-family: Six Caps;
+  color: #c83e3e;
+  font-size: xx-large;
+  text-decoration: none;
+}
