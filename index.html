@@ -41,7 +41,13 @@
       </footer>
     </aside>
     <main>
-      <header style="display: flex; align-items: flex-start">
+      <header
+        style="
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+        "
+      >
         <div style="padding-top: 3rem">
           <span
             style="font-family: Six Caps; color: #c83e3e; font-size: xx-large"
@@ -52,9 +58,9 @@
             Bijen Thapa
           </h1>
         </div>
-        <img src="./assets/img/flora.svg" alt="" style="" />
+        <img src="./assets/img/flora.svg" alt="" style="padding-right: 15rem" />
       </header>
-      <nav>
+      <nav style="position: sticky; z-index: 5">
         <ul
           style="display: flex; list-style: none; justify-content: space-around"
         >
@@ -69,7 +75,7 @@
         style="
           display: flex;
           justify-content: space-evenly;
-          padding: 7rem 5rem 0 0;
+          padding: 7rem 3rem 0 0;
         "
       >
         <div>
@@ -79,14 +85,15 @@
               font-family: system-ui, -apple-system, BlinkMacSystemFont,
                 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
                 'Helvetica Neue', sans-serif;
+              padding-right: 1rem;
             "
           >
-            An interindividual precuring BSc (Hons) Computing with kin interest
-            in technologies and passion that extends beyond development, as I
-            aim to explore various fields in Information Technology, such as
-            graphic design and app development. I am committed to continuously
-            improving my skills to deliver innovative and efficient solutions,
-            and I aspire to contribute meaningfully to the tech industry
+            An individual pressuring BSc (Hons) Computing with kin interest in
+            technologies and passion that extends beyond development, as I
+            explore various fields in Information Technology, such as graphic
+            design and app development. I am committed to continuously improving
+            my skills to deliver innovative and efficient solutions, and I
+            aspire to contribute meaningfully to the tech industry
           </p>
           <h3
             style="
@@ -189,14 +196,13 @@
           src="./assets/files/Bijen_Thapa_CV.pdf"
           frameborder="100"
           width="80%"
-          style="height: 35rem"
+          style="height: 45rem"
         ></iframe>
-        <embed
+        <!-- <embed
           src="./assets/files/Bijen_Thapa_CV.pdf"
           type="application/pdf"
-          width="100%"
-          height="100%"
-        />
+          width="80%"
+        /> -->
       </div>
     </main>
   </body>
