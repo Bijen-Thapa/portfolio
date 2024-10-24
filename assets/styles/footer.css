@@ -1,7 +1,6 @@
 @import "compass/css3";
 
-$body-bg: #c1bdba;
-$form-bg: #13232f;
+var form-bg: #13232f;
 $white: #ffffff;
 
 $main: #1ab188;
@@ -22,14 +21,9 @@ $br: 4px;
   box-sizing: border-box;
 }
 
-html {
-  overflow-y: scroll;
-}
 
-body {
-  background: $body-bg;
-  font-family: "Titillium Web", sans-serif;
-}
+
+
 
 a {
   text-decoration: none;
